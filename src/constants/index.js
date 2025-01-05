@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  banolive,
+  animated,
 } from "../assets";
 
 export const navLinks = [
@@ -181,16 +183,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Banolive Mobile App (React Native)",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -198,29 +200,33 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: banolive,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.bano.live&hl=en&pli=1",
   },
   {
-    name: "Job IT",
+    name: "Animated Website (Next.js)",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "motiondiv",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: animated,
+    source_code_link: "https://www.wearedepart.com/",
   },
   {
     name: "Trip Guide",

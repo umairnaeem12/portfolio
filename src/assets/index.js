@@ -6,6 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import playStore from "./playstore.png";
+import link from "./link.png";
+import banolive from "./banolive.jpg";
+import animated from "./animated.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  playStore,
+  link,
+  banolive,
+  animated
 };
