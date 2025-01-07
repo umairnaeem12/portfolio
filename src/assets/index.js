@@ -10,6 +10,8 @@ import playStore from "./playstore.png";
 import link from "./link.png";
 import banolive from "./banolive.jpg";
 import animated from "./animated.png";
+import blog from "./blog.png";
+import ecommerce from "./ecommerce.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -66,5 +68,7 @@ export {
   playStore,
   link,
   banolive,
-  animated
+  animated,
+  blog,
+  ecommerce
 };

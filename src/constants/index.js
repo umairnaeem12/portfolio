@@ -25,6 +25,8 @@ import {
   threejs,
   banolive,
   animated,
+  blog,
+  ecommerce,
 } from "../assets";
 
 export const navLinks = [
@@ -229,25 +231,58 @@ const projects = [
     source_code_link: "https://www.wearedepart.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Fully Functional Blog Website (React.js)",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "routing",
         color: "pink-text-gradient",
       },
+      {
+        name: "apis",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: blog,
+    source_code_link: "https://brainhub.eu/",
+  },
+  {
+    name: "Ecommerce Website (React.js)",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "routing",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "apis",
+        color: "green-text-gradient",
+      },
+        {
+        name: "reduxjs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://shopsy-tcj.netlify.app/",
   },
 ];
 
