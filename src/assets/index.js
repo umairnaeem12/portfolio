@@ -12,6 +12,13 @@ import banolive from "./banolive.jpg";
 import animated from "./animated.png";
 import blog from "./blog.png";
 import ecommerce from "./ecommerce.png";
+import ecommerce2 from "./ecommerceWebsite.png";
+import NlinetPortal from "./studentPortal.png";
+import BuffDude from "./buffdude.png";
+import RecoveryGuru from "./recoveryGuru.png";
+import Recovery from "./recovery.png";
+import Depart from "./depart.png";
+import AireAdmin from "./aireAdmin.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -35,6 +42,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Lime from "./lime.png";
+import VulcanTech from "./vulcanTech.jpeg";
+import Jinnbyte from './jinnbyte.png';
 
 export {
   logo,
@@ -70,5 +80,15 @@ export {
   banolive,
   animated,
   blog,
-  ecommerce
+  ecommerce,
+  ecommerce2,
+  Lime,
+  VulcanTech,
+  Jinnbyte,
+  NlinetPortal,
+  BuffDude,
+  RecoveryGuru,
+  Recovery,
+  Depart,
+  AireAdmin
 };

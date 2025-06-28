@@ -14,19 +14,20 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   banolive,
   animated,
   blog,
-  ecommerce,
+  ecommerce2,
+  Lime,
+  VulcanTech,
+  Jinnbyte,
+  NlinetPortal,
+  BuffDude,
+  RecoveryGuru,
+  Recovery,
+  Depart,
+  AireAdmin
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +119,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Lime Technologies",
-    icon: starbucks,
+    icon: Lime,
     iconBg: "#383E56",
     date: "Jan 2022 - Feb 2023",
     points: [
@@ -131,7 +132,7 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "VulcanTech",
-    icon: tesla,
+    icon: VulcanTech,
     iconBg: "#E6DEDD",
     date: "March 2023 - Dec 2023",
     points: [
@@ -142,16 +143,16 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "FullStack Developer",
     company_name: "Jinnbyte",
-    icon: shopify,
+    icon: Jinnbyte,
     iconBg: "#383E56",
     date: "Jan 2024 - Continue",
     points: [
-      "Building modern and interactive web applications using React.js, Next.js, and Three.js to create great user experiences.",
-      "Working closely with designers and other team members to plan and develop high-quality products.",
-      "Making sure websites are mobile-friendly and work smoothly across different browsers.",
-      "Reviewing and improving code to keep it clean, efficient, and easy to maintain.",
+      "Developed responsive and interactive web applications using React.js, Next.js, Three.js, and Node.js to deliver exceptional user experiences.",
+      "Collaborated with UI/UX designers and cross-functional teams to plan, build, and refine scalable web solutions.",
+      "Ensured cross-browser compatibility and mobile responsiveness for seamless performance across devices.",
+      "Reviewed and refactored codebases to maintain high standards of code quality, performance, and maintainability.",
     ],
   },
 ];
@@ -269,6 +270,31 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "apis",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "reduxjs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ecommerce2,
+    source_code_link: "https://eshop-tcj.netlify.app/",
+  },
+  {
+    name: "Nlient Student Portal (Next.js + Node.js)",
+    description:
+      "I designed and developed a responsive student portal frontend. It includes auth screens, a dashboard with charts, course listing pages, and a profile section.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
         name: "routing",
         color: "pink-text-gradient",
       },
@@ -276,13 +302,138 @@ const projects = [
         name: "apis",
         color: "green-text-gradient",
       },
-        {
+      {
         name: "reduxjs",
         color: "blue-text-gradient",
       },
     ],
-    image: ecommerce,
-    source_code_link: "https://shopsy-tcj.netlify.app/",
+    image: NlinetPortal,
+    source_code_link: "https://main.d2i7jgwyzqg9yr.amplifyapp.com/",
+  },
+  {
+    name: "Buff-Dudes Dashboard (React.js)",
+    description:
+      "Built the main analytics dashboard for Buff Dudes with dynamic date filters, revenue insights, and responsive charts. Focused on clear data visualization and user-friendly UI.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "routing",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "apis",
+        color: "green-text-gradient",
+      },
+    ],
+    image: BuffDude,
+    source_code_link: "https://stagingportal.buffdudes.app/",
+  },
+  {
+    name: "Recovery Guru Admin Dashboard (Next.js)",
+    description:
+      "Developing core features for Recovery Guru's admin panel, including user, product, and brand management. Focused on clean UI, secure access, and real-time performance for a smooth backend experience.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "routing",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: RecoveryGuru,
+    source_code_link: "https://admin.recoveryguru.com.au/",
+  },
+  {
+    name: "Recovery Guru Website (Next.js + Zustand)",
+    description:
+      "Contributed to Recovery Guru by building reusable components, smart product suggestions, and currency conversion. Added advanced filters, integrated comparison APIs, and improved UI based on client feedback.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "routing",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Recovery,
+    source_code_link: "https://comparison.recoveryguru.com.au/",
+  },
+  {
+    name: "We Are Depart - Portfolio Website",
+    description:
+      "Contributed to We Are Depart’s portfolio site using Next.js. Built responsive components, added smooth animations, responsive design and ensured performance across devices.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "motion-dev",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Zustand",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Depart,
+    source_code_link: "https://www.wearedepart.com/",
+  },
+  {
+    name: "Aire Admin Dashboard (Next.js + Api's)",
+    description:
+      "Worked on Aire’s admin dashboard, building features like subscription flow, booking system, and API integrations. Also improved UI/UX by refining components for better usability and consistency.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsiveness",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React Query",
+        color: "green-text-gradient",
+      },
+    ],
+    image: AireAdmin,
+    source_code_link: "https://www.wearedepart.com/",
   },
 ];
 
