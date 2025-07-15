@@ -51,7 +51,7 @@ import Sosna from "./aireAdmin.png";
 import Vape from "./vape.png";
 import mustakshif from "./mustakshif.png";
 import navicosoft from "./navicosoft.png";
-import TheCakery from "./theCakery.png";
+import TheCakery from "./cakery.png";
 
 export {
   logo,
