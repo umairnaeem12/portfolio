@@ -127,7 +127,7 @@ const Works = () => {
           <button
             key={cat}
             onClick={() => setActiveTab(cat)}
-            className={`px-4 py-2 rounded-lg font-medium ${activeTab === cat ? "bg-primary text-white border border-white" : "bg-gray-200 text-black"
+            className={`px-4 py-2 rounded-lg font-medium ${activeTab === cat ? "bg-primary text-white border-2 border-white" : "bg-gray-200 text-black"
               }`}
           >
             {cat}
