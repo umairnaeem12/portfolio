@@ -49,6 +49,9 @@ import Jinnbyte from './jinnbyte.png';
 import Bakeshop from "./Bakeshop.png";
 import Sosna from "./aireAdmin.png";
 import Vape from "./vape.png";
+import mustakshif from "./mustakshif.png";
+import navicosoft from "./navicosoft.png";
+import TheCakery from "./theCakery.png";
 
 export {
   logo,
@@ -97,5 +100,8 @@ export {
   AireAdmin,
   Bakeshop,
   Sosna,
-  Vape
+  Vape,
+  mustakshif,
+  navicosoft,
+  TheCakery
 };

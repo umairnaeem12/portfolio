@@ -75,6 +75,7 @@ const getCategories = (projects) => {
       if (tag.name.includes("react")) set.add("React");
       else if (tag.name.includes("nextjs")) set.add("Next");
       else if (tag.name.toLowerCase().includes("shopify")) set.add("Shopify");
+      else if (tag.name.toLowerCase().includes("wordpress")) set.add("WordPress");
       else if (tag.name.toLowerCase().includes("laravel")) set.add("Laravel");
     });
   });
@@ -136,15 +137,8 @@ const Works = () => {
       </div>
 
       <div className="mt-10 flex flex-wrap gap-7 w-full">
-        {activeTab === "Laravel" ? (
-          <motion.div
-            variants={fadeIn("up", "spring", 0.1, 0.75)}
-            className="text-center w-full"
-          >
-            <p className="text-red-400 text-[18px] font-semibold">
-              Laravel Developer is busy somewhere and not giving his project details!
-            </p>
-          </motion.div>
+        {filteredProjects.length === 0 ? (
+          <p className="text-secondary text-[16px]">No projects found for this category.</p>
         ) : (
           filteredProjects.map((project, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...project} />
