@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -69,7 +68,35 @@ const ProjectCard = ({
   );
 };
 
+const getCategories = (projects) => {
+  const set = new Set();
+  projects.forEach((p) => {
+    p.tags.forEach((tag) => {
+      if (tag.name.includes("react")) set.add("React");
+      else if (tag.name.includes("nextjs")) set.add("Next");
+      else if (tag.name.toLowerCase().includes("shopify")) set.add("Shopify");
+      else if (tag.name.toLowerCase().includes("laravel")) set.add("Laravel");
+    });
+  });
+  return Array.from(set);
+};
+
 const Works = () => {
+
+  const categories = ["All", ...getCategories(projects)];
+  const [activeTab, setActiveTab] = useState("All");
+
+  const filteredProjects =
+    activeTab === "All"
+      ? projects
+      : projects.filter((p) =>
+        p.tags.some((tag) =>
+          activeTab === "React"
+            ? tag.name.includes("react")
+            : tag.name.toLowerCase().includes(activeTab.toLowerCase())
+        )
+      );
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -90,10 +117,39 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      {/* <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+      </div> */}
+      <div className="mt-10 flex flex-wrap gap-4">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setActiveTab(cat)}
+            className={`px-4 py-2 rounded-lg font-medium ${activeTab === cat ? "bg-primary text-white" : "bg-gray-200 text-black"
+              }`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <div className="mt-10 flex flex-wrap gap-7 w-full">
+        {activeTab === "Laravel" ? (
+          <motion.div
+            variants={fadeIn("up", "spring", 0.1, 0.75)}
+            className="text-center w-full"
+          >
+            <p className="text-red-400 text-[18px] font-semibold">
+              Laravel Developer is busy somewhere and not giving his project details!
+            </p>
+          </motion.div>
+        ) : (
+          filteredProjects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))
+        )}
       </div>
     </>
   );

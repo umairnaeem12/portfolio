@@ -46,6 +46,10 @@ import Lime from "./lime.png";
 import VulcanTech from "./vulcanTech.jpeg";
 import Jinnbyte from './jinnbyte.png';
 
+import Bakeshop from "./bakeshop.jpg";
+import Sosna from "./sosna.jpg";
+import Vape from "./vape.jpg";
+
 export {
   logo,
   backend,
@@ -90,5 +94,8 @@ export {
   RecoveryGuru,
   Recovery,
   Depart,
-  AireAdmin
+  AireAdmin,
+  Bakeshop,
+  Sosna,
+  Vape
 };

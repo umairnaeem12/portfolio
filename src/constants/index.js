@@ -27,7 +27,10 @@ import {
   RecoveryGuru,
   Recovery,
   Depart,
-  AireAdmin
+  AireAdmin,
+  Bakeshop,
+  Sosna,
+  Vape
 } from "../assets";
 
 export const navLinks = [
@@ -435,6 +438,90 @@ const projects = [
     image: AireAdmin,
     source_code_link: "https://www.wearedepart.com/",
   },
+  {
+    name: "Sosna Gems Store - Shopify Website",
+    description:
+      "I designed and developed this elegant, responsive e-commerce website for Sosna Gems, a handmade jewelry brand specializing in one-of-a-kind pieces.",
+    tags: [
+      {
+        name: "Shopify",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "optimized",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsiveness",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ecommerce",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Sosna,
+    source_code_link: "https://sosnagems.com/",
+  },
+  {
+    name: "Posh Pop Bakeshop - Shopify Website",
+    description:
+      "I designed and optimized this high-end eCommerce website for Posh Pop Bakeshop, a gluten-free dessert brand known for luxurious baked goods.",
+    tags: [
+      {
+        name: "Shopify",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "business",
+        color: "green-text-gradient",
+      },
+      {
+        name: "responsiveness",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ecommerce",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Bakeshop,
+    source_code_link: "https://www.poshpopbakeshop.com/",
+  },
+  {
+    name: "Vape Store Online - Shopify",
+    description:
+      " designed and developed a modern, responsive e-commerce website for a vape store, offering an intuitive user experience and seamless shopping flow.",
+    tags: [
+      {
+        name: "Shopify",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "business",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Store",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ecommerce",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Vape,
+    source_code_link: "https://trendingvapestore.com/",
+  },
+  {
+    name: "Laravel Admin Panel",
+    description: "Laravel Developer is busy somewhere and not giving his project details.",
+    tags: [
+      { name: "laravel", color: "pink-text-gradient" },
+    ],
+    image: AireAdmin,
+    source_code_link: "#",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
