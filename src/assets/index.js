@@ -47,7 +47,7 @@ import VulcanTech from "./vulcanTech.jpeg";
 import Jinnbyte from './jinnbyte.png';
 
 import Bakeshop from "./Bakeshop.png";
-import Sosna from "./sosna.png";
+import Sosna from "./Sosna.png";
 import Vape from "./vape.png";
 
 export {
