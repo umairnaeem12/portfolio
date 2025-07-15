@@ -46,7 +46,7 @@ import Lime from "./lime.png";
 import VulcanTech from "./vulcanTech.jpeg";
 import Jinnbyte from './jinnbyte.png';
 
-import Bakeshop from "./bakeshop.jpg";
+import Bakeshop from "./Bakeshop.png";
 import Sosna from "./sosna.jpg";
 import Vape from "./vape.jpg";
 
