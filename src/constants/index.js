@@ -166,26 +166,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Their Shopify expertise transformed our online store—fast checkout, custom filters, and secure payments. Sales jumped 30% in the first month!",
+    name: "Emily Turner",
+    designation: "Head of eCom",
+    company: "Sweet Treats Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Built our React/Next.js testimonial carousel and dynamic UI components exactly to spec. Performance is lightning-fast and UX is slick!",
+    name: "Oliver Smith",
+    designation: "CTO",
+    company: "NextApp Labs",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Their Laravel reseller portal work was secure backend, custom dashboards & easy domain integration. Incredibly reliable delivery!",
+    name: "Sophie Nguyen",
+    designation: "Founder",
+    company: "EcoWear Australia",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
