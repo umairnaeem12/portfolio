@@ -53,19 +53,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "FullStack Developer",
     icon: backend,
   },
   {
-    title: "Next Developer",
+    title: "React Developer",
     icon: creator,
   },
   {
-    title: "Shopify Developer",
+    title: "Next Developer",
     icon: web,
   },
   {
-    title: "PHP Laravel Developer",
+    title: "nodejs Developer",
     icon: mobile,
   },
 ];
@@ -155,7 +155,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2024 - Continue",
     points: [
-      "Developed responsive and interactive web applications using React.js, Next.js, Laravel, Three.js, and Node.js to deliver exceptional user experiences.",
+      "Developed responsive and interactive web applications using React.js, Next.js, Three.js, and Node.js to deliver exceptional user experiences.",
       "Collaborated with UI/UX designers and cross-functional teams to plan, build, and refine scalable web solutions.",
       "Ensured cross-browser compatibility and mobile responsiveness for seamless performance across devices.",
       "Reviewed and refactored codebases to maintain high standards of code quality, performance, and maintainability.",
@@ -182,7 +182,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Their Laravel reseller portal work was secure backend, custom dashboards & easy domain integration. Incredibly reliable delivery!",
+      "Their node.js reseller portal work was secure backend, custom dashboards & easy domain integration. Incredibly reliable delivery!",
     name: "Sophie Nguyen",
     designation: "Founder",
     company: "EcoWear Australia",
@@ -515,40 +515,6 @@ const projects = [
     ],
     image: Vape,
     source_code_link: "https://trendingvapestore.com/",
-  },
-  {
-    name: "The Cakery Website - Wordpress",
-    description: "Developed a charming and responsive Shopify store for The Cakery UK. The design highlights custom cakes with elegant visuals, smooth navigation, and mobile-friendly performance.",
-    tags: [
-      { name: "Wordpress", color: "pink-text-gradient" },
-      { name: "business", color: "green-text-gradient" },
-      { name: "Store", color: "pink-text-gradient" },
-      { name: "ecommerce", color: "green-text-gradient" },
-    ],
-    image: TheCakery,
-    source_code_link: "https://thecakery.uk/",
-  },
-  {
-    name: "Mustakshif Website - Laravel Development",
-    description: "Built with PHP Laravel, Mustakshif is a dynamic web app that offers a powerful halal product scanner and lifestyle guide. Users can scan barcodes to verify halal, haram, or mushbooh status using an AI-powered database backed by a Shariah Board.",
-    tags: [
-      { name: "laravel", color: "pink-text-gradient" },
-      { name: "business", color: "green-text-gradient" },
-      { name: "product", color: "white-text-gradient" },
-    ],
-    image: mustakshif,
-    source_code_link: "https://www.mustakshif.com/",
-  },
-  {
-    name: "ICAAN Reseller DashBoard",
-    description: "Developed a white-label domain and hosting reseller portal for Navicosoft using Laravel. The platform supports ICANN‑accredited domain reselling, bulk pricing and API integration,",
-    tags: [
-      { name: "laravel", color: "pink-text-gradient" },
-      { name: "business", color: "green-text-gradient" },
-      { name: "panel", color: "blue-text-gradient" },
-    ],
-    image: navicosoft,
-    source_code_link: "https://resellers.navicosoft.com/",
   },
 ];
 

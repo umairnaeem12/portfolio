@@ -76,7 +76,6 @@ const getCategories = (projects) => {
       else if (tag.name.includes("nextjs")) set.add("Next");
       else if (tag.name.toLowerCase().includes("shopify")) set.add("Shopify");
       else if (tag.name.toLowerCase().includes("wordpress")) set.add("WordPress");
-      else if (tag.name.toLowerCase().includes("laravel")) set.add("Laravel");
     });
   });
   return Array.from(set);
